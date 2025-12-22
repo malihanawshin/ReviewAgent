@@ -1,0 +1,27 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor junk
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+
+
+# Jupyter / experiments
+.ipynb_checkpoints/
+*.ipynb
+
