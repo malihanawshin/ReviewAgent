@@ -1,5 +1,5 @@
 Review Agent
-===========
+============
 
 Review Agent is a prototype multi‑agent code review assistant for Python projects. It combines static analysis, repository‑level context retrieval, and an LLM reviewer to generate structured code review reports for individual files.
 
@@ -40,7 +40,7 @@ State is passed along the graph as a shared dictionary (code content, file name,
 1. Clone the repository and create a virtual environment:
 
 ```bash
-git clone <your-repo-url> review-agent
+git clone https://github.com/malihanawshin/ReviewAgent.git
 cd review-agent
 python3 -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
